@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ElementSample</title>
+</head>
+<body>
+ <div id='cards-container'>
+   <div class='card'>こんにちは</div>
+</div>
+</div>
+
+  <script> // JavaScript
+ const cardsContainer = document.getElementById('cards-container') 
+//追加するdiv要素を作製
+const card = document.createElement("div")
+card.className = "card"
+card.textContent = "こんばんは"
+// ③beforeendの位置に要素を追加する
+cardsContainer.appendChild( card )
+ console.log(cards-container)
+  </script>
+
+</body>
+</html>
